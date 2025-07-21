@@ -139,10 +139,8 @@ TypeScript               1 repo              █░░░░░░░░░░�
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/platane/platane/output/github-contribution-grid-snake-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/platane/platane/output/github-contribution-grid-snake.svg">
   <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/platane/platane/output/github-contribution-grid-snake.svg">
 </picture>
 
 ![line](https://capsule-render.vercel.app/api?type=rect&color=gradient&height=1)
 ![header](https://capsule-render.vercel.app/api?type=waving&height=300&color=timeGradient&text=Come%20again!&section=header&reversal=false&animation=fadeIn&textBg=false&fontAlignY=43&descAlignY=50)
-![line](https://capsule-render.vercel.app/api?type=rect&color=gradient&height=1)
