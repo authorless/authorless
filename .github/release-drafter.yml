@@ -1,5 +1,15 @@
+template: |
+  ## What’s Changed
+
+  $CHANGES
+
+  ## Contributors
+
+  $CONTRIBUTORS
+
 name-template: 'v$NEXT_PATCH_VERSION'
 tag-template: 'v$NEXT_PATCH_VERSION'
+
 categories:
   - title: '🚀 Features'
     labels:
@@ -10,5 +20,7 @@ categories:
   - title: '🧹 Maintenance'
     labels:
       - 'chore'
+
 change-template: '- $TITLE (#$NUMBER)'
 no-changes-template: '- No changes'
+version-template: '$MAJOR.$MINOR.$PATCH'
