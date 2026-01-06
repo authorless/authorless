@@ -62,7 +62,9 @@
   <summary>Other statistics ...</summary><br/>
 
 <!--START_SECTION:waka-->
-![Profile Views](http://img.shields.io/badge/Profile%20Views-1-blue)
+![Code Time](http://img.shields.io/badge/Code%20Time-72%20hrs%2021%20mins-blue?style=flat)
+
+![Profile Views](http://img.shields.io/badge/Profile%20Views-0-blue?style=flat)
 
 **🐱 My GitHub Data** 
 
@@ -76,6 +78,42 @@
  > 
 > 🔑 4 Private Repositories 
  > 
+**I'm a Night 🦉** 
+
+```text
+🌞 Morning                6 commits           █░░░░░░░░░░░░░░░░░░░░░░░░   03.70 % 
+🌆 Daytime                35 commits          █████░░░░░░░░░░░░░░░░░░░░   21.60 % 
+🌃 Evening                63 commits          ██████████░░░░░░░░░░░░░░░   38.89 % 
+🌙 Night                  58 commits          █████████░░░░░░░░░░░░░░░░   35.80 % 
+```
+📅 **I'm Most Productive on Thursday** 
+
+```text
+Monday                   23 commits          ████░░░░░░░░░░░░░░░░░░░░░   14.20 % 
+Tuesday                  6 commits           █░░░░░░░░░░░░░░░░░░░░░░░░   03.70 % 
+Wednesday                40 commits          ██████░░░░░░░░░░░░░░░░░░░   24.69 % 
+Thursday                 68 commits          ██████████░░░░░░░░░░░░░░░   41.98 % 
+Friday                   11 commits          ██░░░░░░░░░░░░░░░░░░░░░░░   06.79 % 
+Saturday                 4 commits           █░░░░░░░░░░░░░░░░░░░░░░░░   02.47 % 
+Sunday                   10 commits          ██░░░░░░░░░░░░░░░░░░░░░░░   06.17 % 
+```
+
+
+📊 **This Week I Spent My Time On** 
+
+```text
+🕑︎ Time Zone: Europe/Moscow
+
+💬 Programming Languages: 
+No Activity Tracked This Week
+
+🔥 Editors: 
+No Activity Tracked This Week
+
+💻 Operating System: 
+No Activity Tracked This Week
+```
+
 **I Mostly Code in JavaScript** 
 
 ```text
@@ -89,7 +127,7 @@ CSS                      1 repo              █░░░░░░░░░░�
 
 
 
- Last Updated on 04/01/2026 01:03:09 UTC
+ Last Updated on 06/01/2026 00:57:21 UTC
 <!--END_SECTION:waka-->
 </details>
 
