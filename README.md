@@ -33,6 +33,7 @@
 
 ![line](https://capsule-render.vercel.app/api?type=rect&color=gradient&height=1)
 
+<h3 align="center">📊 GitHub Stats</h3>
 
 <!-- Light Mode -->
 <div align="center"> 
@@ -53,20 +54,6 @@
 <img height=240 src="./profile/stats-dark.svg#gh-dark-mode-only" alt="authorless Github stats" />
 </a>
 </div>
-
-
-<h3 align="center">📊 GitHub Stats</h3>
-
-<table align="center">
-  <tr>
-    <td width="420px">
-      <img width="100%" src="https://github-readme-stats.vercel.app/api/top-langs?username=authorless&show_icons=true&locale=en&layout=compact&card_width=420&bg_color=22272E&text_color=9F9F9F&title_color=9F9F9F&icon_color=9F9F9F&hide_border=true" />
-    </td>
-    <td width="420px">
-      <img width="95%" src="https://github-readme-stats.vercel.app/api?username=authorless&show_icons=true&hide_rank=false&bg_color=22272E&text_color=9F9F9F&title_color=9F9F9F&icon_color=9F9F9F&hide_border=true" />
-    </td>
-  </tr>
-</table>
 
 ![line](https://capsule-render.vercel.app/api?type=rect&color=gradient&height=1)
 
