@@ -34,9 +34,25 @@
 ![line](https://capsule-render.vercel.app/api?type=rect&color=gradient&height=1)
 
 
-![Stats](./profile/stats.svg)
-![Top Languages](./profile/top-langs.svg)
-![Pinned](./profile/pin-readme-tools-github-readme-stats.svg)
+<!-- Light Mode -->
+<div align="center"> 
+<a href="https://github.com/anuraghazra/github-readme-stats#gh-light-mode-only">
+<img height=259 src="./profile/top-langs-light.svg#gh-light-mode-only" alt="authorless Language stats" />
+</a>
+<a href="https://github.com/anuraghazra/github-readme-stats#gh-light-mode-only">
+<img height=240  src="./profile/stats-light.svg#gh-light-mode-only" alt="authorless Github stats" />
+</a>
+</div>
+
+<!-- Dark Mode -->
+<div align="center"> 
+<a href="https://github.com/anuraghazra/github-readme-stats#gh-dark-mode-only">
+<img height=259 src="./profile/top-langs-dark.svg#gh-dark-mode-only" alt="authorless Language stats" />
+</a>
+<a href="https://github.com/anuraghazra/github-readme-stats#gh-dark-mode-only">
+<img height=240 src="./profile/stats-dark.svg#gh-dark-mode-only" alt="authorless Github stats" />
+</a>
+</div>
 
 
 <h3 align="center">📊 GitHub Stats</h3>
