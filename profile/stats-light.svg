@@ -9,7 +9,7 @@
         aria-labelledby="descId"
       >
         <title id="titleId">maz1lovo's GitHub Stats, Rank: C+</title>
-        <desc id="descId">Total Stars Earned: 1, Total Commits  : 107, Total PRs: 18, Total PRs Reviewed: 0, Total Issues: 41, Total Discussions Answered: 0, Contributed to (last year): 16</desc>
+        <desc id="descId">Total Stars Earned: 1, Total Commits  : 107, Total PRs: 18, Total PRs Reviewed: 0, Total Issues: 42, Total Discussions Answered: 0, Contributed to (last year): 16</desc>
         <style>
           .header {
             font: 600 18px 'Segoe UI', Ubuntu, Sans-Serif;
@@ -73,7 +73,7 @@
         stroke-dashoffset: 251.32741228718345;
       }
       to {
-        stroke-dashoffset: 215.10036444673878;
+        stroke-dashoffset: 214.9166056308563;
       }
     }
   
@@ -211,7 +211,7 @@
         x="219.01"
         y="12.5"
         data-testid="issues"
-      >41</text>
+      >42</text>
     </g>
   </g><g transform="translate(0, 140)">
     <g class="stagger" style="animation-delay: 1200ms" transform="translate(25, 0)">
