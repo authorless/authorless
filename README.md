@@ -77,9 +77,9 @@
 
 **🐱 My GitHub Data** 
 
-> 📦 13.2 kB Used in GitHub's Storage 
+> 📦 13.3 kB Used in GitHub's Storage 
  > 
-> 🏆 15 Contributions in the Year 2026
+> 🏆 16 Contributions in the Year 2026
  > 
 > 💼 Opted to Hire
  > 
@@ -126,17 +126,17 @@ No Activity Tracked This Week
 **I Mostly Code in JavaScript** 
 
 ```text
-JavaScript               4 repos             █████░░░░░░░░░░░░░░░░░░░░   21.05 % 
-SCSS                     1 repo              █░░░░░░░░░░░░░░░░░░░░░░░░   05.26 % 
-Lua                      1 repo              █░░░░░░░░░░░░░░░░░░░░░░░░   05.26 % 
-Vue                      1 repo              █░░░░░░░░░░░░░░░░░░░░░░░░   05.26 % 
-CSS                      1 repo              █░░░░░░░░░░░░░░░░░░░░░░░░   05.26 % 
+JavaScript               4 repos             █████░░░░░░░░░░░░░░░░░░░░   20.00 % 
+SCSS                     1 repo              █░░░░░░░░░░░░░░░░░░░░░░░░   05.00 % 
+Lua                      1 repo              █░░░░░░░░░░░░░░░░░░░░░░░░   05.00 % 
+Vue                      1 repo              █░░░░░░░░░░░░░░░░░░░░░░░░   05.00 % 
+CSS                      1 repo              █░░░░░░░░░░░░░░░░░░░░░░░░   05.00 % 
 ```
 
 
 
 
- Last Updated on 30/04/2026 01:54:01 UTC
+ Last Updated on 01/05/2026 01:56:24 UTC
 <!--END_SECTION:waka-->
 </details>
 
