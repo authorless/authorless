@@ -1,159 +1,121 @@
-![header](https://capsule-render.vercel.app/api?type=waving&height=300&color=timeGradient&text=Hello%20world!&section=header&animation=fadeIn)
-
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=authorless" alt="Profile Views" />
+  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=190&color=0:0D1117,55:1F2937,100:F59E0B&text=authorless&fontColor=FFFFFF&fontSize=52&fontAlignY=37&desc=Web%20Developer%20%E2%80%A2%20Open-source%20tools%20%E2%80%A2%20Russian%20localization&descSize=18&descAlignY=58&animation=fadeIn" alt="authorless — Web Developer" />
 </p>
 
-<h3 align="center">
-  👋 Hello! My name is Semyon, I am from Moscow.<br>
-  I strive to become a FullStack developer and I am passionate about both Frontend and Backend.
-</h3>
+<div align="center">
 
-<h3 align="center">
-  ⭐ Feel free to star, fork and contribute!
-</h3>
+### Привет, я Семён 👋
 
-![line](https://capsule-render.vercel.app/api?type=rect&color=gradient&height=1)
+Веб-разработчик из Москвы. Создаю понятные интерфейсы, полезные веб-инструменты  
+и русскоязычные open-source решения.
 
-<h3 align="center">🛠️ Languages and Tools</h3>
+Развиваюсь в направлении **FullStack**, уделяя особое внимание удобству,  
+адаптивности и безопасности продукта.
 
-<p align="center">
-  <img src="https://img.shields.io/badge/-HTML5-%23E44D27?style=flat-square&logo=html5&logoColor=ffffff"/>
-  <img src="https://img.shields.io/badge/-CSS3-%231572B6?style=flat-square&logo=css3"/>
-  <img src="https://img.shields.io/badge/-JavaScript-%23F7DF1C?style=flat-square&logo=javascript&logoColor=000000&labelColor=%23F7DF1C&color=%23FFCE5A"/>
-  <img src="https://img.shields.io/badge/-TypeScript-007ACC?style=flat-square&logo=typescript&logoColor=white"/>
-  <img src="https://img.shields.io/badge/-Vue.js-%232c3e50?style=flat-square&logo=vuedotjs"/>
-  <img src="https://img.shields.io/badge/-Less-%231d365d?style=flat-square&logo=less&logoColor=ffffff"/>
-  <img src="https://img.shields.io/badge/-Sass-%23CC6699?style=flat-square&logo=sass&logoColor=ffffff"/>
-  <img src="https://img.shields.io/badge/-ESLint-%234B32C3?style=flat-square&logo=eslint"/>
-  <img src="https://img.shields.io/badge/-Prettier-%23F7B93E?style=flat-square&logo=prettier&logoColor=ffffff"/>
-  <img src="https://img.shields.io/badge/-Git-%23F05032?style=flat-square&logo=git&logoColor=%23ffffff"/>
-  <img src="https://img.shields.io/badge/-VSCode-%23007ACC?style=flat-square&logo=visual-studio-code"/>
-</p>
-
-![line](https://capsule-render.vercel.app/api?type=rect&color=gradient&height=1)
-
-<h3 align="center">📊 GitHub Stats</h3>
-
-<!-- Light Mode -->
-<div align="center"> 
-<a href="https://github.com/anuraghazra/github-readme-stats#gh-light-mode-only">
-<img height=259 src="./profile/top-langs-light.svg#gh-light-mode-only" alt="authorless Language stats" />
+<a href="https://github.com/authorless?tab=followers">
+  <img src="https://img.shields.io/github/followers/authorless?style=flat-square&label=%D0%9F%D0%BE%D0%B4%D0%BF%D0%B8%D1%81%D1%87%D0%B8%D0%BA%D0%B8&labelColor=161B22&color=F59E0B" alt="Подписчики GitHub" />
 </a>
-<a href="https://github.com/anuraghazra/github-readme-stats#gh-light-mode-only">
-<img height=240  src="./profile/stats-light.svg#gh-light-mode-only" alt="authorless Github stats" />
+<img src="https://komarev.com/ghpvc/?username=authorless&label=%D0%9F%D1%80%D0%BE%D1%81%D0%BC%D0%BE%D1%82%D1%80%D1%8B&color=F59E0B&style=flat-square" alt="Просмотры профиля" />
+<a href="https://github.com/authorless?tab=repositories">
+  <img src="https://img.shields.io/badge/%D0%9F%D1%80%D0%BE%D0%B5%D0%BA%D1%82%D1%8B-%D0%BE%D1%82%D0%BA%D1%80%D1%8B%D1%82%D1%8C-F59E0B?style=flat-square&labelColor=161B22" alt="Открыть проекты" />
 </a>
+
 </div>
 
-<!-- Dark Mode -->
-<div align="center"> 
-<a href="https://github.com/anuraghazra/github-readme-stats#gh-dark-mode-only">
-<img height=259 src="./profile/top-langs-dark.svg#gh-dark-mode-only" alt="authorless Language stats" />
-</a>
-<a href="https://github.com/anuraghazra/github-readme-stats#gh-dark-mode-only">
-<img height=240 src="./profile/stats-dark.svg#gh-dark-mode-only" alt="authorless Github stats" />
-</a>
-</div>
+## Обо мне
 
-![line](https://capsule-render.vercel.app/api?type=rect&color=gradient&height=1)
-
-<h3 align="center">🏆 My GitHub Trophies</h3>
-
-<p align="center">
-  <a href="https://github.com/ryo-ma/github-profile-trophy">
-    <img width="800px" src="https://github-profile-trophy.vercel.app/?username=authorless&theme=gruvbox&no-frame=true"/>
-  </a>
-</p>
-
-![line](https://capsule-render.vercel.app/api?type=rect&color=gradient&height=1)
+- 🧩 Люблю превращать сложные сценарии в простые и аккуратные интерфейсы.
+- 🛠️ Работаю с веб-приложениями, автоматизацией и пользовательскими скриптами.
+- 🌍 Делаю инструменты доступнее для русскоязычных пользователей.
+- 🔐 Стараюсь учитывать приватность, безопасность и удобство дальнейшей поддержки.
 
 <details>
-  <summary>Other statistics ...</summary><br/>
-
-<!--START_SECTION:waka-->
-![Code Time](http://img.shields.io/badge/Code%20Time-77%20hrs%2016%20mins-blue?style=flat)
-
-![AI Code Time](http://img.shields.io/badge/AI%20Code%20Time-6%20hrs%2010%20mins-blue?style=flat)
-
-![Profile Views](http://img.shields.io/badge/Profile%20Views-0-blue?style=flat)
-
-**🐱 My GitHub Data** 
-
-> 📦 13.3 kB Used in GitHub's Storage 
- > 
-> 🏆 25 Contributions in the Year 2026
- > 
-> 💼 Opted to Hire
- > 
-> 📜 12 Public Repositories 
- > 
-> 🔑 5 Private Repositories 
- > 
-**I'm a Night 🦉** 
-
-```text
-🌞 Morning                0 commits           ░░░░░░░░░░░░░░░░░░░░░░░░░   00.00 % 
-🌆 Daytime                155 commits         █████░░░░░░░░░░░░░░░░░░░░   18.72 % 
-🌃 Evening                293 commits         █████████░░░░░░░░░░░░░░░░   35.39 % 
-🌙 Night                  380 commits         ███████████░░░░░░░░░░░░░░   45.89 % 
-```
-📅 **I'm Most Productive on Wednesday** 
-
-```text
-Monday                   32 commits          █░░░░░░░░░░░░░░░░░░░░░░░░   03.86 % 
-Tuesday                  54 commits          ██░░░░░░░░░░░░░░░░░░░░░░░   06.52 % 
-Wednesday                295 commits         █████████░░░░░░░░░░░░░░░░   35.63 % 
-Thursday                 248 commits         ███████░░░░░░░░░░░░░░░░░░   29.95 % 
-Friday                   71 commits          ██░░░░░░░░░░░░░░░░░░░░░░░   08.57 % 
-Saturday                 84 commits          ███░░░░░░░░░░░░░░░░░░░░░░   10.14 % 
-Sunday                   44 commits          █░░░░░░░░░░░░░░░░░░░░░░░░   05.31 % 
-```
-
-
-📊 **This Week I Spent My Time On** 
-
-```text
-🕑︎ Time Zone: Europe/Moscow
-
-💬 Programming Languages: 
-No Activity Tracked This Week
-
-🔥 Editors: 
-No Activity Tracked This Week
-
-💻 Operating System: 
-No Activity Tracked This Week
-```
-
-🤖 **AI Coding This Week** 
-
-```text
-No AI Coding Activity Tracked This Week
-```
-
-**I Mostly Code in JavaScript** 
-
-```text
-JavaScript               3 repos             ████░░░░░░░░░░░░░░░░░░░░░   17.65 % 
-SCSS                     1 repo              █░░░░░░░░░░░░░░░░░░░░░░░░   05.88 % 
-Lua                      1 repo              █░░░░░░░░░░░░░░░░░░░░░░░░   05.88 % 
-Vue                      1 repo              █░░░░░░░░░░░░░░░░░░░░░░░░   05.88 % 
-CSS                      1 repo              █░░░░░░░░░░░░░░░░░░░░░░░░   05.88 % 
-```
-
-
-
-
- Last Updated on 21/08/2026 00:37:33 UTC
-<!--END_SECTION:waka-->
+  <summary><strong>English version</strong></summary>
+  <br />
+  Hi! I'm Semyon, a web developer from Moscow. I build clear interfaces, practical web tools and Russian-language open-source projects. I am growing toward FullStack development with a focus on usability, responsive design and product security.
 </details>
 
-![line](https://capsule-render.vercel.app/api?type=rect&color=gradient&height=1)
+## Избранные проекты
+
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <h3 align="center">
+        <a href="https://github.com/authorless/vaclens-ru">VACLens RU</a>
+      </h3>
+      <p>
+        Русскоязычный помощник проверки CS2 VACNet с переработанным интерфейсом,
+        расширенными комбинациями вердиктов, горячими клавишами и локальной историей.
+      </p>
+      <p align="center">
+        <a href="https://greasyfork.org/ru/scripts/592414-vaclens-ru-cs2-review-assistant">
+          <img src="https://img.shields.io/greasyfork/v/592414?style=flat-square&label=Greasy%20Fork&labelColor=161B22&color=F59E0B" alt="Версия VACLens RU на Greasy Fork" />
+        </a>
+        <a href="https://github.com/authorless/vaclens-ru/actions/workflows/test.yml">
+          <img src="https://img.shields.io/github/actions/workflow/status/authorless/vaclens-ru/test.yml?branch=main&style=flat-square&label=%D1%82%D0%B5%D1%81%D1%82%D1%8B&labelColor=161B22&color=F59E0B" alt="Статус тестов VACLens RU" />
+        </a>
+      </p>
+    </td>
+    <td width="50%" valign="top">
+      <h3 align="center">
+        <a href="https://github.com/authorless/BitFlow-Dashboard">BitFlow Dashboard</a>
+      </h3>
+      <p>
+        Современная панель мониторинга Bitcoin с интерактивными графиками,
+        обновлением данных, адаптивным интерфейсом и контейнеризированным окружением.
+      </p>
+      <p align="center">
+        <img src="https://img.shields.io/badge/Nuxt%203-00DC82?style=flat-square&logo=nuxtdotjs&logoColor=white" alt="Nuxt 3" />
+        <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript" />
+        <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white" alt="PostgreSQL" />
+      </p>
+    </td>
+  </tr>
+</table>
+
+## Технологии и инструменты
+
+<div align="center">
+  <img src="https://skillicons.dev/icons?i=html,css,js,ts,vue,nuxtjs,tailwind,sass,nodejs,postgres,prisma,docker,git,githubactions,vscode&perline=8&theme=dark" alt="HTML, CSS, JavaScript, TypeScript, Vue, Nuxt, Tailwind CSS, Sass, Node.js, PostgreSQL, Prisma, Docker, Git, GitHub Actions и VS Code" />
+</div>
+
+## GitHub-активность
+
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./profile/stats-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="./profile/stats-light.svg" />
+    <img height="180" src="./profile/stats-light.svg" alt="Статистика GitHub authorless" />
+  </picture>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./profile/top-langs-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="./profile/top-langs-light.svg" />
+    <img height="180" src="./profile/top-langs-light.svg" alt="Основные языки authorless" />
+  </picture>
+</div>
+
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./profile/streak-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="./profile/streak-light.svg" />
+    <img src="./profile/streak-light.svg" alt="Серия активности authorless" />
+  </picture>
+</div>
+
+## Вклад в проекты
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/platane/platane/output/github-contribution-grid-snake-dark.svg">
-  <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/platane/platane/output/github-contribution-grid-snake.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/authorless/authorless/output/github-contribution-grid-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/authorless/authorless/output/github-contribution-grid-snake.svg" />
+  <img alt="Анимация вкладов authorless" src="https://raw.githubusercontent.com/authorless/authorless/output/github-contribution-grid-snake.svg" />
 </picture>
 
-![line](https://capsule-render.vercel.app/api?type=rect&color=gradient&height=1)
-![header](https://capsule-render.vercel.app/api?type=waving&height=300&color=timeGradient&text=Come%20again!&section=header&reversal=false&animation=fadeIn&textBg=false&fontAlignY=43&descAlignY=50)
+---
+
+<div align="center">
+  <sub>Открыт к идеям, предложениям и совместной работе над полезными проектами.</sub>
+</div>
+
+<p align="center">
+  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=100&color=0:0D1117,55:1F2937,100:F59E0B&section=footer" alt="" />
+</p>
