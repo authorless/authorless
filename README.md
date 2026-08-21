@@ -83,22 +83,22 @@
 
 <div align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./profile/stats-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="./profile/stats-light.svg" />
-    <img height="180" src="./profile/stats-light.svg" alt="Статистика GitHub authorless" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-stats-extended.vercel.app/api?username=authorless&show_icons=true&hide_border=true&hide_rank=true&card_width=420&title_color=F59E0B&icon_color=F59E0B&text_color=E6EDF3&bg_color=0D1117&custom_title=GitHub%20statistics" />
+    <source media="(prefers-color-scheme: light)" srcset="https://github-stats-extended.vercel.app/api?username=authorless&show_icons=true&hide_border=true&hide_rank=true&card_width=420&title_color=D97706&icon_color=F59E0B&text_color=24292F&bg_color=FFFFFF&custom_title=GitHub%20statistics" />
+    <img height="180" src="https://github-stats-extended.vercel.app/api?username=authorless&show_icons=true&hide_border=true&hide_rank=true&card_width=420&title_color=D97706&icon_color=F59E0B&text_color=24292F&bg_color=FFFFFF&custom_title=GitHub%20statistics" alt="Статистика GitHub authorless" />
   </picture>
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./profile/top-langs-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="./profile/top-langs-light.svg" />
-    <img height="180" src="./profile/top-langs-light.svg" alt="Основные языки authorless" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-stats-extended.vercel.app/api/top-langs/?username=authorless&layout=compact&langs_count=8&hide_border=true&card_width=420&title_color=F59E0B&text_color=E6EDF3&bg_color=0D1117&custom_title=Most%20used%20languages" />
+    <source media="(prefers-color-scheme: light)" srcset="https://github-stats-extended.vercel.app/api/top-langs/?username=authorless&layout=compact&langs_count=8&hide_border=true&card_width=420&title_color=D97706&text_color=24292F&bg_color=FFFFFF&custom_title=Most%20used%20languages" />
+    <img height="180" src="https://github-stats-extended.vercel.app/api/top-langs/?username=authorless&layout=compact&langs_count=8&hide_border=true&card_width=420&title_color=D97706&text_color=24292F&bg_color=FFFFFF&custom_title=Most%20used%20languages" alt="Основные языки authorless" />
   </picture>
 </div>
 
 <div align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./profile/streak-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="./profile/streak-light.svg" />
-    <img src="./profile/streak-light.svg" alt="Серия активности authorless" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com?user=authorless&locale=ru&mode=weekly&hide_border=true&background=0D1117&ring=F59E0B&fire=F59E0B&currStreakNum=E6EDF3&sideNums=E6EDF3&currStreakLabel=F59E0B&sideLabels=8B949E&dates=8B949E&disable_animations=true" />
+    <source media="(prefers-color-scheme: light)" srcset="https://streak-stats.demolab.com?user=authorless&locale=ru&mode=weekly&hide_border=true&background=FFFFFF&ring=F59E0B&fire=F59E0B&currStreakNum=24292F&sideNums=24292F&currStreakLabel=D97706&sideLabels=57606A&dates=57606A&disable_animations=true" />
+    <img src="https://streak-stats.demolab.com?user=authorless&locale=ru&mode=weekly&hide_border=true&background=FFFFFF&ring=F59E0B&fire=F59E0B&currStreakNum=24292F&sideNums=24292F&currStreakLabel=D97706&sideLabels=57606A&dates=57606A&disable_animations=true" alt="Серия активности authorless" />
   </picture>
 </div>
 
