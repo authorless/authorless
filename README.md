@@ -12,13 +12,9 @@ and Russian-language open-source projects.
 I'm growing toward **FullStack development**, with a focus on usability,  
 responsive design and product security.
 
-<a href="https://github.com/authorless?tab=followers">
-  <img src="https://img.shields.io/github/followers/authorless?style=flat-square&label=Followers&labelColor=161B22&color=F59E0B" alt="GitHub followers" />
-</a>
+<a href="https://github.com/authorless?tab=followers"><img src="https://img.shields.io/github/followers/authorless?style=flat-square&label=Followers&labelColor=161B22&color=F59E0B" alt="GitHub followers" /></a>
 <img src="https://komarev.com/ghpvc/?username=authorless&label=Profile%20views&color=F59E0B&style=flat-square" alt="Profile views" />
-<a href="https://github.com/authorless?tab=repositories">
-  <img src="https://img.shields.io/badge/Projects-explore-F59E0B?style=flat-square&labelColor=161B22" alt="Explore projects" />
-</a>
+<a href="https://github.com/authorless?tab=repositories"><img src="https://img.shields.io/badge/Projects-explore-F59E0B?style=flat-square&labelColor=161B22" alt="Explore projects" /></a>
 
 </div>
 
@@ -42,12 +38,8 @@ responsive design and product security.
         expanded verdict combinations, keyboard shortcuts and local history.
       </p>
       <p align="center">
-        <a href="https://greasyfork.org/ru/scripts/592414-vaclens-ru-cs2-review-assistant">
-          <img src="https://img.shields.io/greasyfork/v/592414?style=flat-square&label=Greasy%20Fork&labelColor=161B22&color=F59E0B" alt="VACLens RU version on Greasy Fork" />
-        </a>
-        <a href="https://github.com/authorless/vaclens-ru/actions/workflows/test.yml">
-          <img src="https://img.shields.io/github/actions/workflow/status/authorless/vaclens-ru/test.yml?branch=main&style=flat-square&label=tests&labelColor=161B22&color=F59E0B" alt="VACLens RU test status" />
-        </a>
+        <a href="https://greasyfork.org/ru/scripts/592414-vaclens-ru-cs2-review-assistant"><img src="https://img.shields.io/greasyfork/v/592414?style=flat-square&label=Greasy%20Fork&labelColor=161B22&color=F59E0B" alt="VACLens RU version on Greasy Fork" /></a>
+        <a href="https://github.com/authorless/vaclens-ru/actions/workflows/test.yml"><img src="https://img.shields.io/github/actions/workflow/status/authorless/vaclens-ru/test.yml?branch=main&style=flat-square&label=tests&labelColor=161B22&color=F59E0B" alt="VACLens RU test status" /></a>
       </p>
     </td>
     <td width="50%" valign="top">
