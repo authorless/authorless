@@ -1,159 +1,128 @@
-![header](https://capsule-render.vercel.app/api?type=waving&height=300&color=timeGradient&text=Hello%20world!&section=header&animation=fadeIn)
-
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=authorless" alt="Profile Views" />
+  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=190&color=0:0D1117,55:1F2937,100:F59E0B&text=authorless&fontColor=FFFFFF&fontSize=52&fontAlignY=37&desc=Web%20Developer%20%E2%80%A2%20Open-source%20tools%20%E2%80%A2%20Russian%20localization&descSize=18&descAlignY=58&animation=fadeIn" alt="authorless — Web Developer" />
 </p>
 
-<h3 align="center">
-  👋 Hello! My name is Semyon, I am from Moscow.<br>
-  I strive to become a FullStack developer and I am passionate about both Frontend and Backend.
-</h3>
+<div align="center">
 
-<h3 align="center">
-  ⭐ Feel free to star, fork and contribute!
-</h3>
+### Hi, I'm Semyon 👋
 
-![line](https://capsule-render.vercel.app/api?type=rect&color=gradient&height=1)
+I'm a web developer based in Moscow. I build clear interfaces, practical web tools  
+and Russian-language open-source projects.
 
-<h3 align="center">🛠️ Languages and Tools</h3>
+I'm growing toward **FullStack development**, with a focus on usability,  
+responsive design and product security.
 
-<p align="center">
-  <img src="https://img.shields.io/badge/-HTML5-%23E44D27?style=flat-square&logo=html5&logoColor=ffffff"/>
-  <img src="https://img.shields.io/badge/-CSS3-%231572B6?style=flat-square&logo=css3"/>
-  <img src="https://img.shields.io/badge/-JavaScript-%23F7DF1C?style=flat-square&logo=javascript&logoColor=000000&labelColor=%23F7DF1C&color=%23FFCE5A"/>
-  <img src="https://img.shields.io/badge/-TypeScript-007ACC?style=flat-square&logo=typescript&logoColor=white"/>
-  <img src="https://img.shields.io/badge/-Vue.js-%232c3e50?style=flat-square&logo=vuedotjs"/>
-  <img src="https://img.shields.io/badge/-Less-%231d365d?style=flat-square&logo=less&logoColor=ffffff"/>
-  <img src="https://img.shields.io/badge/-Sass-%23CC6699?style=flat-square&logo=sass&logoColor=ffffff"/>
-  <img src="https://img.shields.io/badge/-ESLint-%234B32C3?style=flat-square&logo=eslint"/>
-  <img src="https://img.shields.io/badge/-Prettier-%23F7B93E?style=flat-square&logo=prettier&logoColor=ffffff"/>
-  <img src="https://img.shields.io/badge/-Git-%23F05032?style=flat-square&logo=git&logoColor=%23ffffff"/>
-  <img src="https://img.shields.io/badge/-VSCode-%23007ACC?style=flat-square&logo=visual-studio-code"/>
-</p>
+<a href="https://github.com/authorless?tab=followers"><img src="https://img.shields.io/github/followers/authorless?style=flat-square&label=Followers&labelColor=161B22&color=F59E0B" alt="GitHub followers" /></a>
+<img src="https://komarev.com/ghpvc/?username=authorless&label=Profile%20views&color=F59E0B&style=flat-square" alt="Profile views" />
+<a href="https://github.com/authorless?tab=repositories"><img src="https://img.shields.io/badge/Projects-explore-F59E0B?style=flat-square&labelColor=161B22" alt="Explore projects" /></a>
 
-![line](https://capsule-render.vercel.app/api?type=rect&color=gradient&height=1)
-
-<h3 align="center">📊 GitHub Stats</h3>
-
-<!-- Light Mode -->
-<div align="center"> 
-<a href="https://github.com/anuraghazra/github-readme-stats#gh-light-mode-only">
-<img height=259 src="./profile/top-langs-light.svg#gh-light-mode-only" alt="authorless Language stats" />
-</a>
-<a href="https://github.com/anuraghazra/github-readme-stats#gh-light-mode-only">
-<img height=240  src="./profile/stats-light.svg#gh-light-mode-only" alt="authorless Github stats" />
-</a>
 </div>
 
-<!-- Dark Mode -->
-<div align="center"> 
-<a href="https://github.com/anuraghazra/github-readme-stats#gh-dark-mode-only">
-<img height=259 src="./profile/top-langs-dark.svg#gh-dark-mode-only" alt="authorless Language stats" />
-</a>
-<a href="https://github.com/anuraghazra/github-readme-stats#gh-dark-mode-only">
-<img height=240 src="./profile/stats-dark.svg#gh-dark-mode-only" alt="authorless Github stats" />
-</a>
+## About me
+
+- 🧩 I enjoy turning complex workflows into simple, polished interfaces.
+- 🛠️ I work with web applications, automation and userscripts.
+- 🌍 I make useful tools more accessible to Russian-speaking users.
+- 🔐 I care about privacy, security and long-term maintainability.
+
+## Featured projects
+
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <h3 align="center">
+        <a href="https://github.com/authorless/vaclens-ru">VACLens RU</a>
+      </h3>
+      <p>
+        A Russian-language CS2 VACNet review assistant with a redesigned interface,
+        expanded verdict combinations, keyboard shortcuts and local history.
+      </p>
+      <p align="center">
+        <a href="https://greasyfork.org/ru/scripts/592414-vaclens-ru-cs2-review-assistant"><img src="https://img.shields.io/greasyfork/v/592414?style=flat-square&label=Greasy%20Fork&labelColor=161B22&color=F59E0B" alt="VACLens RU version on Greasy Fork" /></a>
+        <a href="https://github.com/authorless/vaclens-ru/actions/workflows/test.yml"><img src="https://img.shields.io/github/actions/workflow/status/authorless/vaclens-ru/test.yml?branch=main&style=flat-square&label=tests&labelColor=161B22&color=F59E0B" alt="VACLens RU test status" /></a>
+      </p>
+    </td>
+    <td width="50%" valign="top">
+      <h3 align="center">
+        <a href="https://github.com/authorless/BitFlow-Dashboard">BitFlow Dashboard</a>
+      </h3>
+      <p>
+        A modern Bitcoin monitoring dashboard with interactive charts,
+        live data updates, responsive design and a containerized environment.
+      </p>
+      <p align="center">
+        <img src="https://img.shields.io/badge/Nuxt%203-00DC82?style=flat-square&logo=nuxtdotjs&logoColor=white" alt="Nuxt 3" />
+        <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript" />
+        <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white" alt="PostgreSQL" />
+      </p>
+    </td>
+  </tr>
+</table>
+
+## Technologies and tools
+
+<div align="center">
+  <img src="https://skillicons.dev/icons?i=html,css,js,ts,vue,nuxtjs,tailwind,sass,nodejs,postgres,prisma,docker,git,githubactions,vscode&perline=8&theme=dark" alt="HTML, CSS, JavaScript, TypeScript, Vue, Nuxt, Tailwind CSS, Sass, Node.js, PostgreSQL, Prisma, Docker, Git, GitHub Actions and VS Code" />
 </div>
 
-![line](https://capsule-render.vercel.app/api?type=rect&color=gradient&height=1)
+## Coding activity
 
-<h3 align="center">🏆 My GitHub Trophies</h3>
+<div align="center">
+  <sub>Last 7 days · tracked in VS Code with Hackatime</sub>
+</div>
 
-<p align="center">
-  <a href="https://github.com/ryo-ma/github-profile-trophy">
-    <img width="800px" src="https://github-profile-trophy.vercel.app/?username=authorless&theme=gruvbox&no-frame=true"/>
-  </a>
-</p>
-
-![line](https://capsule-render.vercel.app/api?type=rect&color=gradient&height=1)
-
-<details>
-  <summary>Other statistics ...</summary><br/>
-
-<!--START_SECTION:waka-->
-![Code Time](http://img.shields.io/badge/Code%20Time-77%20hrs%2016%20mins-blue?style=flat)
-
-![AI Code Time](http://img.shields.io/badge/AI%20Code%20Time-6%20hrs%2010%20mins-blue?style=flat)
-
-![Profile Views](http://img.shields.io/badge/Profile%20Views-0-blue?style=flat)
-
-**🐱 My GitHub Data** 
-
-> 📦 13.3 kB Used in GitHub's Storage 
- > 
-> 🏆 25 Contributions in the Year 2026
- > 
-> 💼 Opted to Hire
- > 
-> 📜 12 Public Repositories 
- > 
-> 🔑 5 Private Repositories 
- > 
-**I'm a Night 🦉** 
-
+<!--START_SECTION:hackatime-->
 ```text
-🌞 Morning                0 commits           ░░░░░░░░░░░░░░░░░░░░░░░░░   00.00 % 
-🌆 Daytime                155 commits         █████░░░░░░░░░░░░░░░░░░░░   18.72 % 
-🌃 Evening                293 commits         █████████░░░░░░░░░░░░░░░░   35.39 % 
-🌙 Night                  380 commits         ███████████░░░░░░░░░░░░░░   45.89 % 
+Languages:
+XML                   4m 28s   █████████████░░░░░░░░░░░░  49.72%
+Text                  4m 0s    ████████████░░░░░░░░░░░░░  44.53%
+HTML                  26s      ██░░░░░░░░░░░░░░░░░░░░░░░  4.82%
+JavaScript            5s       █░░░░░░░░░░░░░░░░░░░░░░░░  0.93%
+
+Projects:
+Discord-Integration   4m 28s   ████████████░░░░░░░░░░░░░  47.10%
+unknown               4m 0s    ███████████░░░░░░░░░░░░░░  42.18%
+503                   1m 1s    ███░░░░░░░░░░░░░░░░░░░░░░  10.72%
 ```
-📅 **I'm Most Productive on Wednesday** 
+<!--END_SECTION:hackatime-->
 
-```text
-Monday                   32 commits          █░░░░░░░░░░░░░░░░░░░░░░░░   03.86 % 
-Tuesday                  54 commits          ██░░░░░░░░░░░░░░░░░░░░░░░   06.52 % 
-Wednesday                295 commits         █████████░░░░░░░░░░░░░░░░   35.63 % 
-Thursday                 248 commits         ███████░░░░░░░░░░░░░░░░░░   29.95 % 
-Friday                   71 commits          ██░░░░░░░░░░░░░░░░░░░░░░░   08.57 % 
-Saturday                 84 commits          ███░░░░░░░░░░░░░░░░░░░░░░   10.14 % 
-Sunday                   44 commits          █░░░░░░░░░░░░░░░░░░░░░░░░   05.31 % 
-```
+## GitHub activity
 
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-stats-extended.vercel.app/api?username=authorless&show_icons=true&hide_border=true&hide_rank=true&card_width=420&title_color=F59E0B&icon_color=F59E0B&text_color=E6EDF3&bg_color=0D1117&custom_title=GitHub%20statistics" />
+    <source media="(prefers-color-scheme: light)" srcset="https://github-stats-extended.vercel.app/api?username=authorless&show_icons=true&hide_border=true&hide_rank=true&card_width=420&title_color=D97706&icon_color=F59E0B&text_color=24292F&bg_color=FFFFFF&custom_title=GitHub%20statistics" />
+    <img height="180" src="https://github-stats-extended.vercel.app/api?username=authorless&show_icons=true&hide_border=true&hide_rank=true&card_width=420&title_color=D97706&icon_color=F59E0B&text_color=24292F&bg_color=FFFFFF&custom_title=GitHub%20statistics" alt="authorless GitHub statistics" />
+  </picture>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-stats-extended.vercel.app/api/top-langs/?username=authorless&layout=compact&langs_count=8&hide_border=true&card_width=420&title_color=F59E0B&text_color=E6EDF3&bg_color=0D1117&custom_title=Most%20used%20languages" />
+    <source media="(prefers-color-scheme: light)" srcset="https://github-stats-extended.vercel.app/api/top-langs/?username=authorless&layout=compact&langs_count=8&hide_border=true&card_width=420&title_color=D97706&text_color=24292F&bg_color=FFFFFF&custom_title=Most%20used%20languages" />
+    <img height="180" src="https://github-stats-extended.vercel.app/api/top-langs/?username=authorless&layout=compact&langs_count=8&hide_border=true&card_width=420&title_color=D97706&text_color=24292F&bg_color=FFFFFF&custom_title=Most%20used%20languages" alt="authorless most used languages" />
+  </picture>
+</div>
 
-📊 **This Week I Spent My Time On** 
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com?user=authorless&locale=en&mode=weekly&hide_border=true&background=0D1117&ring=F59E0B&fire=F59E0B&currStreakNum=E6EDF3&sideNums=E6EDF3&currStreakLabel=F59E0B&sideLabels=8B949E&dates=8B949E&disable_animations=true" />
+    <source media="(prefers-color-scheme: light)" srcset="https://streak-stats.demolab.com?user=authorless&locale=en&mode=weekly&hide_border=true&background=FFFFFF&ring=F59E0B&fire=F59E0B&currStreakNum=24292F&sideNums=24292F&currStreakLabel=D97706&sideLabels=57606A&dates=57606A&disable_animations=true" />
+    <img src="https://streak-stats.demolab.com?user=authorless&locale=en&mode=weekly&hide_border=true&background=FFFFFF&ring=F59E0B&fire=F59E0B&currStreakNum=24292F&sideNums=24292F&currStreakLabel=D97706&sideLabels=57606A&dates=57606A&disable_animations=true" alt="authorless contribution streak" />
+  </picture>
+</div>
 
-```text
-🕑︎ Time Zone: Europe/Moscow
-
-💬 Programming Languages: 
-No Activity Tracked This Week
-
-🔥 Editors: 
-No Activity Tracked This Week
-
-💻 Operating System: 
-No Activity Tracked This Week
-```
-
-🤖 **AI Coding This Week** 
-
-```text
-No AI Coding Activity Tracked This Week
-```
-
-**I Mostly Code in JavaScript** 
-
-```text
-JavaScript               3 repos             ████░░░░░░░░░░░░░░░░░░░░░   17.65 % 
-SCSS                     1 repo              █░░░░░░░░░░░░░░░░░░░░░░░░   05.88 % 
-Lua                      1 repo              █░░░░░░░░░░░░░░░░░░░░░░░░   05.88 % 
-Vue                      1 repo              █░░░░░░░░░░░░░░░░░░░░░░░░   05.88 % 
-CSS                      1 repo              █░░░░░░░░░░░░░░░░░░░░░░░░   05.88 % 
-```
-
-
-
-
- Last Updated on 21/08/2026 00:37:33 UTC
-<!--END_SECTION:waka-->
-</details>
-
-![line](https://capsule-render.vercel.app/api?type=rect&color=gradient&height=1)
+## Contribution graph
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/platane/platane/output/github-contribution-grid-snake-dark.svg">
-  <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/platane/platane/output/github-contribution-grid-snake.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/authorless/authorless/output/github-contribution-grid-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/authorless/authorless/output/github-contribution-grid-snake.svg" />
+  <img alt="authorless contribution graph animation" src="https://raw.githubusercontent.com/authorless/authorless/output/github-contribution-grid-snake.svg" />
 </picture>
 
-![line](https://capsule-render.vercel.app/api?type=rect&color=gradient&height=1)
-![header](https://capsule-render.vercel.app/api?type=waving&height=300&color=timeGradient&text=Come%20again!&section=header&reversal=false&animation=fadeIn&textBg=false&fontAlignY=43&descAlignY=50)
+---
+
+<div align="center">
+  <sub>Open to ideas, feedback and collaboration on useful projects.</sub>
+</div>
+
+<p align="center">
+  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=100&color=0:0D1117,55:1F2937,100:F59E0B&section=footer" alt="" />
+</p>
