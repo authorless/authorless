@@ -27,6 +27,10 @@ jobs:
         uses: Platane/snk/svg-only@v3
         with:
           github_user_name: ${{ github.repository_owner }}
+          # A read:user token includes private contribution counts without
+          # granting access to private repository contents. Fall back safely
+          # to the repository token until the secret is configured.
+          github_token: ${{ secrets.SNAKE_READ_USER_TOKEN || github.token }}
           outputs: |
             dist/github-contribution-grid-snake.svg?color_snake=#F59E0B&color_dots=#EBEDF0,#FDE68A,#FBBF24,#F59E0B,#D97706
             dist/github-contribution-grid-snake-dark.svg?palette=github-dark&color_snake=#F59E0B&color_dots=#161B22,#452F0A,#7A4F0B,#B86F0B,#F59E0B
