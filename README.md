@@ -65,6 +65,18 @@ responsive design and product security.
   <img src="https://skillicons.dev/icons?i=html,css,js,ts,vue,nuxtjs,tailwind,sass,nodejs,postgres,prisma,docker,git,githubactions,vscode&perline=8&theme=dark" alt="HTML, CSS, JavaScript, TypeScript, Vue, Nuxt, Tailwind CSS, Sass, Node.js, PostgreSQL, Prisma, Docker, Git, GitHub Actions and VS Code" />
 </div>
 
+## Coding activity
+
+<div align="center">
+  <sub>Last 7 days · tracked in VS Code with Hackatime</sub>
+</div>
+
+<!--START_SECTION:hackatime-->
+```text
+The first activity summary will appear after the workflow runs.
+```
+<!--END_SECTION:hackatime-->
+
 ## GitHub activity
 
 <div align="center">

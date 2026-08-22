@@ -1,0 +1,69 @@
+name: Update Hackatime activity
+
+on:
+  schedule:
+    - cron: "17 3 * * *"
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+      - profile/readme-redesign
+    paths:
+      - ".github/workflows/update-hackatime.yml"
+      - ".github/templates/hackatime.md.tpl"
+      - ".github/scripts/update-hackatime-section.mjs"
+
+concurrency:
+  group: hackatime-readme-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    permissions:
+      contents: write
+
+    steps:
+      - name: Check out the profile repository
+        uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6.0.2
+
+      - name: Set up Go
+        uses: actions/setup-go@b7ad1dad31e06c5925ef5d2fc7ad053ef454303e # v7.0.0
+        with:
+          go-version: "1.22.3"
+          cache: false
+
+      - name: Render the Hackatime summary with Markscribe
+        env:
+          WAKATIME_API_KEY: ${{ secrets.HACKATIME_API_KEY }}
+          WAKATIME_URL: https://hackatime.hackclub.com/api/v1/
+        run: |
+          if [ -z "$WAKATIME_API_KEY" ]; then
+            echo "::error::Add HACKATIME_API_KEY in Settings > Secrets and variables > Actions."
+            exit 1
+          fi
+
+          go install github.com/taciturnaxolotl/markscribe@51d889bfe09e228ee871dd4066700c44c7790e10
+          "$(go env GOPATH)/bin/markscribe" \
+            -write /tmp/hackatime-section.md \
+            .github/templates/hackatime.md.tpl
+
+      - name: Update the marked README section
+        run: |
+          node .github/scripts/update-hackatime-section.mjs \
+            README.md \
+            /tmp/hackatime-section.md
+
+      - name: Commit the new activity summary
+        run: |
+          if git diff --quiet -- README.md; then
+            echo "Hackatime summary is already up to date."
+            exit 0
+          fi
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add README.md
+          git commit -m "chore(readme): refresh Hackatime activity"
+          git push
