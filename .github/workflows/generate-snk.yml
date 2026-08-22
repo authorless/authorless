@@ -2,7 +2,8 @@ name: Generate contribution animation
 
 on:
   schedule:
-    - cron: "31 3 * * *"
+    # 03:25 MSK (Moscow is UTC+3 year-round).
+    - cron: "25 0 * * *"
   workflow_dispatch:
   push:
     branches:
