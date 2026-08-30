@@ -74,17 +74,10 @@ responsive design and product security.
 <!--START_SECTION:hackatime-->
 ```text
 Languages:
-PowerShell               15m 24s   ████████████████░░░░░░░░░  63.16%
-XML                      4m 28s    █████░░░░░░░░░░░░░░░░░░░░  18.32%
-Text                     4m 0s     █████░░░░░░░░░░░░░░░░░░░░  16.40%
-HTML                     26s       █░░░░░░░░░░░░░░░░░░░░░░░░  1.78%
-JavaScript               5s        █░░░░░░░░░░░░░░░░░░░░░░░░  0.34%
+PowerShell               15m 24s   █████████████████████████  100.00%
 
 Projects:
-zapret-discord-youtube   15m 24s   ████████████████░░░░░░░░░  61.89%
-Discord-Integration      4m 28s    █████░░░░░░░░░░░░░░░░░░░░  17.95%
-unknown                  4m 0s     █████░░░░░░░░░░░░░░░░░░░░  16.08%
-503                      1m 1s     ██░░░░░░░░░░░░░░░░░░░░░░░  4.09%
+zapret-discord-youtube   15m 24s   █████████████████████████  100.00%
 ```
 <!--END_SECTION:hackatime-->
 
