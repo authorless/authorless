@@ -74,10 +74,8 @@ responsive design and product security.
 <!--START_SECTION:hackatime-->
 ```text
 Languages:
-PowerShell               15m 24s   █████████████████████████  100.00%
 
 Projects:
-zapret-discord-youtube   15m 24s   █████████████████████████  100.00%
 ```
 <!--END_SECTION:hackatime-->
 
