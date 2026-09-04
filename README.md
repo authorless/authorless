@@ -74,8 +74,15 @@ responsive design and product security.
 <!--START_SECTION:hackatime-->
 ```text
 Languages:
+Markdown            8m 17s    █████████░░░░░░░░░░░░░░░░  35.45%
+TypeScript          8m 16s    █████████░░░░░░░░░░░░░░░░  35.38%
+Shell               2m 47s    ███░░░░░░░░░░░░░░░░░░░░░░  11.91%
+Batchfile           2m 2s     ███░░░░░░░░░░░░░░░░░░░░░░  8.70%
+JSON                2m 0s     ███░░░░░░░░░░░░░░░░░░░░░░  8.56%
 
 Projects:
+Versus-Bot-v0.1.0   14m 18s   ███████████████████░░░░░░  74.93%
+unknown             4m 47s    ███████░░░░░░░░░░░░░░░░░░  25.07%
 ```
 <!--END_SECTION:hackatime-->
 
