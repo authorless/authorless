@@ -74,13 +74,8 @@ responsive design and product security.
 <!--START_SECTION:hackatime-->
 ```text
 Languages:
-Markdown   44m 20s   ██████████████████████░░░  86.45%
-Shell      5m 22s    ███░░░░░░░░░░░░░░░░░░░░░░  10.46%
-Dotenv     1m 24s    █░░░░░░░░░░░░░░░░░░░░░░░░  2.73%
-JSON       11s       █░░░░░░░░░░░░░░░░░░░░░░░░  0.36%
 
 Projects:
-unknown    46m 14s   █████████████████████████  100.00%
 ```
 <!--END_SECTION:hackatime-->
 
