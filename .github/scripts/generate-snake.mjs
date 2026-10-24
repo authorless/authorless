@@ -186,7 +186,3 @@ export const main = async () => {
     writeFile("dist/github-contribution-grid-snake-dark.svg", results[1]),
   ]);
 };
-
-if (import.meta.url === pathToFileURL(process.argv[1]).href) {
-  await main();
-}
