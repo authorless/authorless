@@ -17,12 +17,11 @@ const contributionLevelNumber = (level) => {
 
 export const parseProfileLevels = (html) => {
   const levels = new Map();
-  const cellPattern =
-    /<(?:td|rect)\b[^>]*\bdata-date="(\d{4}-\d{2}-\d{2})"[^>]*>/g;
+  const cellPattern = /<(?:td|rect)\b[^>]*\bdata-date="(\d{4}-\d{2}-\d{2})"[^>]*>/g;
 
   for (const match of html.matchAll(cellPattern)) {
     const tag = match[0];
-    const level = Number(tag.match(/\bdata-level="([0-4])"/)?.[1]);
+    const level = Number(tag.match(/\bdata-level="([0-4])"/)?. [1]);
 
     if (Number.isInteger(level)) {
       levels.set(match[1], level);
@@ -30,22 +29,17 @@ export const parseProfileLevels = (html) => {
   }
 
   if (levels.size < 300) {
-    throw new Error(
-      `GitHub profile calendar parsing returned only ${levels.size} days`,
-    );
+    throw new Error(`GitHub profile calendar parsing returned only ${levels.size} days`);
   }
 
   return levels;
 };
 
 export const mergeProfileLevels = (payload, profileLevels) => {
-  const weeks =
-    payload?.data?.user?.contributionsCollection?.contributionCalendar?.weeks;
+  const weeks = payload?.data?.user?.contributionsCollection?.contributionCalendar?.weeks;
 
   if (!Array.isArray(weeks)) {
-    throw new Error(
-      "GitHub GraphQL response does not contain a contribution calendar",
-    );
+    throw new Error("GitHub GraphQL response does not contain a contribution calendar");
   }
 
   let matchedDays = 0;
@@ -81,7 +75,6 @@ export const createProfileAwareFetch = (nativeFetch, username) => {
     const response = await nativeFetch(input, init);
     const url = typeof input === "string" ? input : input?.url;
 
-    // ИСПРАВЛЕНО: Проверяем правильный эндпоинт GraphQL API GitHub
     if (url !== "https://github.com" || !response.ok) {
       return response;
     }
@@ -98,8 +91,6 @@ export const createProfileAwareFetch = (nativeFetch, username) => {
     }
 
     const payload = await response.json();
-    
-    // ИСПРАВЛЕНО: Добавлен пропущенный слэш (/) перед никнеймом пользователя
     const profileResponse = await nativeFetch(
       `https://github.com{encodeURIComponent(username)}/contributions`,
       {
@@ -111,16 +102,11 @@ export const createProfileAwareFetch = (nativeFetch, username) => {
     );
 
     if (!profileResponse.ok) {
-      throw new Error(
-        `GitHub profile calendar request failed with ${profileResponse.status}`,
-      );
+      throw new Error(`GitHub profile calendar request failed with ${profileResponse.status}`);
     }
 
     const profileLevels = parseProfileLevels(await profileResponse.text());
     const result = mergeProfileLevels(payload, profileLevels);
-    console.log(
-      `GitHub profile calendar matched ${result.matchedDays} days and restored ${result.restoredDays} missing active day(s)`,
-    );
 
     return new Response(JSON.stringify(payload), {
       status: response.status,
@@ -151,33 +137,19 @@ export const main = async () => {
   const username = process.env.GITHUB_REPOSITORY_OWNER;
   const token = process.env.SNAKE_TOKEN;
 
-  if (!username) throw new Error("GITHUB_REPOSITORY_OWNER is not set");
-  if (!token) throw new Error("SNAKE_TOKEN is not set");
+  if (!username || !token) {
+    process.exit(1);
+  }
 
-  // Папка создается в самом начале
   await mkdir("dist", { recursive: true });
 
   const nativeFetch = globalThis.fetch.bind(globalThis);
   globalThis.fetch = createProfileAwareFetch(nativeFetch, username);
 
   const outputs = [
-    output("#EBEDF0", [
-      "#EBEDF0",
-      "#FDE68A",
-      "#FBBF24",
-      "#F59E0B",
-      "#D97706",
-    ]),
-    output("#161B22", [
-      "#161B22",
-      "#452F0A",
-      "#7A4F0B",
-      "#B86F0B",
-      "#F59E0B",
-    ]),
+    output("#EBEDF0", ["#EBEDF0", "#FDE68A", "#FBBF24", "#F59E0B", "#D97706"]),
+    output("#161B22", ["#161B22", "#452F0A", "#7A4F0B", "#B86F0B", "#F59E0B"]),
   ];
-
-  console.log("🚀 Запуск генерации анимации...");
 
   try {
     const results = await generateSnakeAnimation(
@@ -190,25 +162,18 @@ export const main = async () => {
     );
 
     if (!results || results.length < 2) {
-      throw new Error("Генератор вернул пустой результат или неверный формат массива");
+      process.exit(1);
     }
 
     await Promise.all([
       writeFile("dist/github-contribution-grid-snake.svg", results[0]),
       writeFile("dist/github-contribution-grid-snake-dark.svg", results[1]),
     ]);
-
-    console.log("🎉 Все файлы успешно сгенерированы и записаны в папку dist/");
-  } catch (error) {
-    console.error("🚨 Произошла критическая ошибка внутри generateSnakeAnimation:");
-    console.error(error);
+  } catch {
     process.exit(1);
   }
 };
 
-// Надежный вызов функции main()
-main().catch((error) => {
-  console.error("🚨 Не удалось запустить скрипт:");
-  console.error(error);
+main().catch(() => {
   process.exit(1);
 });
