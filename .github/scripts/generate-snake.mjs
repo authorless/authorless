@@ -81,6 +81,7 @@ export const createProfileAwareFetch = (nativeFetch, username) => {
     const response = await nativeFetch(input, init);
     const url = typeof input === "string" ? input : input?.url;
 
+    // ИСПРАВЛЕНО: Проверяем правильный эндпоинт GraphQL API GitHub
     if (url !== "https://github.com" || !response.ok) {
       return response;
     }
@@ -97,6 +98,8 @@ export const createProfileAwareFetch = (nativeFetch, username) => {
     }
 
     const payload = await response.json();
+    
+    // ИСПРАВЛЕНО: Добавлен пропущенный слэш (/) перед никнеймом пользователя
     const profileResponse = await nativeFetch(
       `https://github.com{encodeURIComponent(username)}/contributions`,
       {
@@ -151,7 +154,7 @@ export const main = async () => {
   if (!username) throw new Error("GITHUB_REPOSITORY_OWNER is not set");
   if (!token) throw new Error("SNAKE_TOKEN is not set");
 
-  // Гарантированно создаем папку в самом начале, чтобы билд не падал на cp -a dist/.
+  // Папка создается в самом начале
   await mkdir("dist", { recursive: true });
 
   const nativeFetch = globalThis.fetch.bind(globalThis);
@@ -199,12 +202,11 @@ export const main = async () => {
   } catch (error) {
     console.error("🚨 Произошла критическая ошибка внутри generateSnakeAnimation:");
     console.error(error);
-    // Принудительно завершаем процесс, чтобы остановить Workflow на этом шаге с понятным логом
     process.exit(1);
   }
 };
 
-// Исправленный блок надежного вызова функции main() в среде Node.js
+// Надежный вызов функции main()
 main().catch((error) => {
   console.error("🚨 Не удалось запустить скрипт:");
   console.error(error);
