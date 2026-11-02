@@ -74,8 +74,10 @@ responsive design and product security.
 <!--START_SECTION:hackatime-->
 ```text
 Languages:
+JSON      1m 9s   █████████████████████████  100.00%
 
 Projects:
+unknown   1m 9s   █████████████████████████  100.00%
 ```
 <!--END_SECTION:hackatime-->
 
